@@ -144,6 +144,62 @@ This project implements a distributed dictionary system where a **Main Server** 
 
 
 
+# Travel Offers Management System
+
+![Travel Offers](https://dummyimage.com/1200x300/007acc/ffffff&text=Travel+Offers+Management+System)
+
+Welcome to the **Travel Offers Management System** repository! This project is a comprehensive Java-based solution that integrates a MySQL database with a sleek Swing-based GUI to manage and display travel offers. It demonstrates my skills in database management, data parsing, localization, and user interface design—all in one interactive application.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [How It Works](#how-it-works)
+
+
+## Overview
+This project reads travel offer data from text files, processes and localizes the information (supporting multiple locales and date formats), and then stores it in a MySQL database. Users can interact with the system via a responsive Swing GUI to view offers, filter by language and date format, and get real-time updates. The solution is designed to be both functional and appealing—ideal for real-world travel agencies or as a proof-of-concept for scalable Java applications.
+
+## Features
+- **Database Creation & Management:**  
+  Automatically creates a MySQL table to store travel offers and populates it with data read from files.
+  
+- **Data Parsing & Localization:**  
+  Processes raw travel data, localizes country names and travel details based on user-selected locale (e.g., `pl_PL`, `en_GB`), and formats dates according to user preferences.
+  
+- **Interactive GUI:**  
+  A user-friendly Swing interface lets users select language and date format options, then displays travel offers in an interactive table.
+  
+- **Robust Error Handling:**  
+  The system is built to gracefully handle parsing errors and SQL exceptions, ensuring a smooth user experience.
+
+## Architecture
+- **Database Class:**  
+  Handles MySQL connection, table creation, and data insertion.
+  
+- **TravelData Class:**  
+  Reads and formats travel offer data from external files, supporting dynamic localization using resource bundles.
+  
+- **Main Class:**  
+  Serves as the entry point, demonstrating both console output and the launch of the graphical user interface.
+  
+- **GUI Implementation:**  
+  Utilizes Java Swing components to provide an intuitive interface for viewing and filtering travel offers.
+
+## How It Works
+1. **Data Ingestion:**  
+   The application reads raw travel offer data from files located in a designated `data` directory.
+2. **Data Processing:**  
+   Offers are parsed and localized according to the selected language and date format. Country names and places are translated using resource bundles.
+3. **Database Population:**  
+   A MySQL database is automatically set up with a dedicated table (`offers`), and all parsed travel offers are inserted into it.
+4. **Interactive Display:**  
+   A Swing GUI allows users to choose language and date format options, and displays the travel offers in a responsive table view.
+
+
+
+
+
 
 
 
