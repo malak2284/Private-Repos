@@ -5,7 +5,6 @@
     <p style="font-size: 1.2em; margin: 20px 0;">This repository contains a collection of my projects in which the source code is intentionally hidden for security purposes. Enjoy the tour! 🚀</p>
 </div>
 
-_
 
 # Warehouse Management System
 
