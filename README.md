@@ -38,7 +38,6 @@ This system simplifies complex warehouse tasks by providing tailored interfaces 
 ## Interactive Demo
 Experience the system in action!  
 [👉 Launch the Demo](https://example.com/demo)  
-*(Replace the demo link with the actual URL if available.)*
 
 
 
