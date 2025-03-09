@@ -42,3 +42,106 @@ Experience the system in action!
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Distributed Dictionary Translation System
+
+![Banner](https://dummyimage.com/1200x300/333/fff&text=Distributed+Dictionary+Translation+System)
+
+Welcome to the **Distributed Dictionary Translation System** repository! This project is a sophisticated Java-based application that demonstrates a distributed architecture for real-time word translation. With multiple language servers working together and a user-friendly GUI client, this system is an impressive showcase of network programming, concurrency, and dynamic server management.
+
+## Table of Contents
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Features](#features)
+  - [Main Server](#main-server)
+  - [Language Servers](#language-servers)
+  - [Dictionary Servers Manager](#dictionary-servers-manager)
+  - [Client Handler](#client-handler)
+  - [GUI Client](#gui-client)
+- [How It Works](#how-it-works)
+
+
+## Overview
+This project implements a distributed dictionary system where a **Main Server** handles client connections and delegates translation requests to dedicated **Language Servers**. Managed centrally by the **Dictionary Servers Manager**, these components work together seamlessly to provide a smooth translation experience via both a command-line interface and an interactive GUI built with Swing.
+
+## Architecture
+- **Main Server:**  
+  Listens for incoming client connections on port `8000` and dispatches requests using a fixed thread pool.
+  
+- **Language Servers:**  
+  Each server listens on its designated port (e.g., `9001` for English, `9002` for French, `9003` for German) and processes translation requests for a specific language.
+  
+- **Dictionary Servers Manager:**  
+  Initializes default language servers, manages them, and allows for dynamic additions of new language servers.
+  
+- **Client Handler:**  
+  Parses incoming client requests, determines the appropriate language server, and routes the request for translation.
+  
+- **GUI Client:**  
+  Provides an intuitive Swing-based interface for users to input words, select the target language, and view translations in real time.
+
+## Features
+
+### Main Server
+- **Concurrent Client Handling:**  
+  Efficiently manages multiple client connections using a fixed thread pool.
+- **Centralized Routing:**  
+  Delegates translation requests to the correct language server based on user input.
+
+### Language Servers
+- **Dedicated Language Processing:**  
+  Each server is responsible for a specific language, ensuring tailored translation logic.
+- **Scalable and Extendable:**  
+  Easily add new language servers as needed to support additional languages.
+
+### Dictionary Servers Manager
+- **Dynamic Initialization:**  
+  Automatically starts default language servers and supports the integration of new ones.
+- **Centralized Management:**  
+  Maintains and provides information on all active language servers.
+
+### Client Handler
+- **Robust Request Parsing:**  
+  Validates and processes client input, ensuring correct routing to language servers.
+- **Reliable Communication:**  
+  Bridges the gap between the client and the appropriate language server efficiently.
+
+### GUI Client
+- **User-Friendly Interface:**  
+  Built with Swing, offering a responsive and engaging experience.
+- **Real-Time Translation:**  
+  Enter a word, select a language, and get immediate translation feedback.
+- **Interactive and Intuitive:**  
+  Designed to impress with its clean layout and ease of use.
+
+## How It Works
+1. **Server Initialization:**  
+   The Main Server starts on port `8000`, initializing a thread pool and the Dictionary Servers Manager, which in turn launches default Language Servers.
+2. **Client Request:**  
+   A client (via command line or GUI) sends a translation request formatted as `word,languageCode`.
+3. **Request Processing:**  
+   The Client Handler parses the request and uses the Dictionary Servers Manager to locate the appropriate Language Server.
+4. **Translation:**  
+   The Language Server processes the word, applies the translation logic (currently simplified), and returns the translated word.
+5. **Response Display:**  
+   The client receives the translation and displays it, providing a smooth, interactive experience.
+
+
+
+
+
+
+
