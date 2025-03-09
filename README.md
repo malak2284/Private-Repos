@@ -18,10 +18,7 @@ Welcome to the **Warehouse Management System** repository! This project is not j
   - [Admin Interface](#admin-interface)
   - [Client Interface](#client-interface)
 - [Interactive Demo](#interactive-demo)
-- [Getting Started](#getting-started)
-- [About Me](#about-me)
-- [Contact](#contact)
-
+  
 ## Overview
 This system simplifies complex warehouse tasks by providing tailored interfaces for different user roles. Whether you need to manage inventory or simply place an order, every function is designed to be efficient, secure, and user-friendly.
 
