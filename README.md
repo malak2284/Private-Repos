@@ -46,11 +46,6 @@ Experience the system in action!
 [👉 Launch the Demo](https://example.com/demo)  
 *(Replace the demo link with the actual URL if available.)*
 
-## Getting Started
-Follow these steps to set up the project locally:
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/warehouse-management-system.git
 
 
