@@ -43,27 +43,7 @@ If you encounter any inaccuracies or have any ideas, please email me at: [kmalak
 
 _
 
-# <img src='https://lh3.googleusercontent.com/9eq6xSjFiwl2f4dXSB3AGsvsDlv5DaZGu4J2k5k4F87CHoyFBlrYd1P659LWC5kh1g' width='40' style="border-radius: 40px;"> Facei
 
-## Description
-Facei is a fun mobile app that lets you swap your nose with various fruits and change backgrounds. Developed in one month during a school apprenticeship project, it includes a story in Polish about its creation, published on Medium.
 
-## Links
-<img src='https://cdn-icons-png.flaticon.com/512/732/732208.png' width='22' style="border-radius: 40px;"> [Google Play](https://play.google.com/store/apps/details?id=malaq.facei)
-
-<img src='https://www.iconpacks.net/icons/2/free-medium-icon-2177-thumb.png' width='22' style="border-radius: 40px;"> [Medium Article](https://medium.com/@kmalak4822/o-kodzie-kt%C3%B3ry-pozornie-nie-sprawia%C5%82-wi%C4%99kszych-problem%C3%B3w-292d48935bd1)
-
-## Features
-- Body Detection Package
-- Screenshots
-- CustomPaint
-
-## Screenshots
-
-<img src='https://github.com/user-attachments/assets/361f5109-8eca-46d6-a377-e83f3a64ba9c' width='266' style="border-radius: 40px;">
-<img src='https://github.com/user-attachments/assets/c6fb7a80-0819-4fa6-84de-c58d10a92cba' width='266' style="border-radius: 40px;">
-<img src='https://github.com/user-attachments/assets/e60455ed-f556-45cc-a2af-bf41331fed1a' width='266' style="border-radius: 40px;">
-
-## <img src='https://github.com/user-attachments/assets/73b0f6a6-7f51-4967-b4fd-7e9ff7436c8e' width='34' style="border-radius: 40px;"> Tips & Ideas
 
 If you encounter any inaccuracies or have any ideas, please email me at: [kmalak4822@gmail.com](mailto:kmalak4822@gmail.com)
