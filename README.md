@@ -203,3 +203,61 @@ This project reads travel offer data from text files, processes and localizes th
 
 
 
+
+# Interactive NIO Communication System
+
+![NIO Communication](https://dummyimage.com/1200x300/333/fff&text=Interactive+NIO+Communication+System)
+
+Welcome to the **Interactive NIO Communication System** repository! This project showcases an advanced Java application that combines non-blocking network communication using Java NIO with intuitive Swing-based graphical interfaces. Designed with real-time messaging, topic subscriptions, and dynamic administration in mind, this system demonstrates my expertise in concurrent programming, network protocols, and user interface design.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [How It Works](#how-it-works)
+
+
+## Overview
+This project implements a multi-faceted communication system where clients and administrators connect to a central server using non-blocking I/O (Java NIO). The system includes:
+- **Client and Admin Applications:**  
+  Both provide graphical user interfaces (GUIs) to interact with the server. Clients can manage topics and send messages, while admins can view and control active topics.
+- **Server Components:**  
+  A robust server (with a dedicated GUI) listens for incoming connections, manages topic-based subscriptions, and forwards messages accordingly. Additionally, a basic echo server is implemented for demonstration purposes.
+
+## Features
+- **Non-Blocking Communication:**  
+  Utilizes Java NIO with SocketChannels and Selectors to handle multiple concurrent connections efficiently.
+- **Graphical User Interfaces:**  
+  Developed using Swing, offering separate GUIs for Clients, Admins, and the Server, each tailored for their respective tasks.
+- **Topic Management:**  
+  Clients can add or remove topics dynamically, while the server supports topic-based subscriptions to filter and forward messages.
+- **Interactive and Real-Time:**  
+  Immediate feedback and message forwarding provide a responsive, real-time communication experience.
+- **Robust Error Handling:**  
+  Gracefully handles connection issues, ensuring stable communication between clients and the server.
+
+## Architecture
+- **Client & Admin Applications:**  
+  Both applications establish non-blocking connections to the server (port 12345) and provide interactive GUIs for sending and receiving messages. The Admin interface also aggregates topics from the Client GUI for enhanced management.
+  
+- **ServerGUI:**  
+  Implements a non-blocking server using a Selector to monitor multiple channels. It manages client subscriptions, logs activity in a Swing-based interface, and forwards messages to subscribers based on topic matching.
+  
+- **Server (Echo Server):**  
+  A simpler server implementation (listening on port 12346) that echoes incoming messages. This component demonstrates fundamental NIO operations and serves as a test bed for network communication.
+
+## How It Works
+1. **Connection Establishment:**  
+   - Clients and Admins create non-blocking SocketChannels and connect to the ServerGUI.
+   - The server registers new client connections using a Selector for efficient I/O operations.
+
+2. **Messaging & Topic Subscription:**  
+   - Clients can add topics through their GUI. These topics are displayed dynamically and can be used to filter messages.
+   - Admins access a dedicated interface to view and manage these topics.
+   - The server monitors incoming messages; if a message includes a subscribed topic, it is forwarded to the relevant clients.
+
+3. **Interactive Communication:**  
+   - All components use Swing to offer real-time feedback. Messages and status updates appear instantly on the respective GUIs, ensuring a smooth, interactive experience.
+
+
+
