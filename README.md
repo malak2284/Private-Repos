@@ -62,6 +62,8 @@ Experience the system in action!
 
 Welcome to the **Distributed Dictionary Translation System** repository! This project is a sophisticated Java-based application that demonstrates a distributed architecture for real-time word translation. With multiple language servers working together and a user-friendly GUI client, this system is an impressive showcase of network programming, concurrency, and dynamic server management.
 
+**Repository:** [Distributed Dictionary Translation System](https://github.com/malak2284/Dictionary-Translation-System)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
