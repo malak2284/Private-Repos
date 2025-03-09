@@ -2,7 +2,7 @@
 <div align="center" style="font-family: 'Lato', sans-serif; color: #333;">
 <!--     <img width="80" alt="image" src="https://github.com/user-attachments/assets/aea702a7-0fa7-424a-a536-d3a60af7353d" style="border-radius: 40px; margin-bottom: 20px;"> -->
     <h1 style="font-size: 2.5em; margin: 0;">Hi, I’m Filip! 👋</h1>
-    <p style="font-size: 1.2em; margin: 20px 0;">This repository contains a collection of my projects in which the source code is intentionally hidden for security purposes. Enjoy the tour! 🚀</p>
+    <p style="font-size: 1.2em; margin: 20px 0;">This repository showcases a collection of my projects. For security reasons, some projects have their source code intentionally hidden. Enjoy the tour!🚀</p>
 </div>
 
 
