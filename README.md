@@ -150,7 +150,7 @@ This project implements a distributed dictionary system where a **Main Server** 
 
 Welcome to the **Travel Offers Management System** repository! This project is a comprehensive Java-based solution that integrates a MySQL database with a sleek Swing-based GUI to manage and display travel offers. It demonstrates my skills in database management, data parsing, localization, and user interface design—all in one interactive application.
 
-source code: [CODE](https://github.com/malak2284/Travel-Offers-Management-System)
+**Repository:** [CODE](https://github.com/malak2284/Travel-Offers-Management-System)
 
 
 
@@ -215,7 +215,7 @@ This project reads travel offer data from text files, processes and localizes th
 
 Welcome to the **Interactive NIO Communication System** repository! This project showcases an advanced Java application that combines non-blocking network communication using Java NIO with intuitive Swing-based graphical interfaces. Designed with real-time messaging, topic subscriptions, and dynamic administration in mind, this system demonstrates my expertise in concurrent programming, network protocols, and user interface design.
 
-source code: [CODE](https://github.com/malak2284/Interactive-NIO-Communication-System)
+**Repository:** [CODE](https://github.com/malak2284/Interactive-NIO-Communication-System)
 
 ## Table of Contents
 - [Overview](#overview)
