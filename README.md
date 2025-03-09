@@ -1,4 +1,3 @@
-# Private-Repos
 This repository contains a collection of my projects in which the source code is intentionally hidden for security purposes.
 
 <div align="center" style="font-family: 'Lato', sans-serif; color: #333;">
