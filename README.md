@@ -8,7 +8,7 @@
 
 # Warehouse Management System
 
-![Banner](https://dummyimage.com/1200x300/333/fff&text=Warehouse+Management+System)
+![Banner]((./moss_beztla.png))
 
 Welcome to the **Warehouse Management System** repository! This project is not just another web app—it's a powerful tool crafted to revolutionize warehouse operations. With interactive features and an intuitive interface, it’s built to impress both administrators and clients alike.
 
